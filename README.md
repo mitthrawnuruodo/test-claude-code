@@ -2,6 +2,8 @@
 
 A small demo app that fetches Studio Ghibli films from the [Ghibli API](https://ghibliapi.vercel.app/) and lets you favourite them. Built to demonstrate **Zustand** for state management on top of a deliberately classic React 18 + Tailwind 3 stack.
 
+Demo on Netlify: https://testing-claude-code.netlify.app
+
 ## Stack
 
 | Tool         | Version | Notes                                                  |
