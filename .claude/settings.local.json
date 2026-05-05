@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(yes)",
+      "Bash(npm install *)",
+      "Bash(npm ls *)",
+      "Bash(npm run *)",
+      "Bash(curl -sf http://localhost:5173/ -o /dev/null)",
+      "Bash(curl -sf http://localhost:5173/src/main.tsx -o /dev/null)",
+      "Bash(curl -sI --max-time 10 -H \"Origin: http://localhost:5173\" https://ghibliapi.vercel.app/films)",
+      "Bash(curl -s --max-time 10 https://ghibliapi.vercel.app/films)"
+    ]
+  }
+}

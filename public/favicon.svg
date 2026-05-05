@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Jiji</title>
+
+  <!-- Warm cream backdrop so the black cat reads in any browser theme -->
+  <rect width="64" height="64" rx="14" fill="#fef3c7"/>
+
+  <!-- Head + ears as one continuous silhouette, traced clockwise -->
+  <path d="M 10 6
+           L 22 22
+           Q 32 18 42 22
+           L 54 6
+           L 50 26
+           Q 60 38 50 52
+           Q 40 62 32 60
+           Q 24 62 14 52
+           Q 4 38 14 26
+           Z"
+        fill="#0a0a0a"/>
+
+  <!-- Big yellow eyes -->
+  <circle cx="23" cy="36" r="6" fill="#ffd84d"/>
+  <circle cx="41" cy="36" r="6" fill="#ffd84d"/>
+
+  <!-- Pupils (round so they survive being scaled to 16px) -->
+  <circle cx="23" cy="36" r="2.4" fill="#0a0a0a"/>
+  <circle cx="41" cy="36" r="2.4" fill="#0a0a0a"/>
+
+  <!-- Tiny highlights to give the eyes life -->
+  <circle cx="24.4" cy="34.4" r="0.9" fill="#ffffff"/>
+  <circle cx="42.4" cy="34.4" r="0.9" fill="#ffffff"/>
+
+  <!-- Pink triangle nose -->
+  <path d="M 30 47 L 34 47 L 32 50 Z" fill="#ff8fb1"/>
+</svg>
