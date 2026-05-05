@@ -26,18 +26,20 @@ export function FilmCard({ film }: Props) {
             ★ {film.rt_score}
           </span>
         </div>
-        <button
-          type="button"
-          onClick={() => toggle(film)}
-          className={
-            'mt-3 w-full rounded-md px-3 py-1.5 text-sm font-medium transition ' +
-            (isFav
-              ? 'bg-pink-500 text-white hover:bg-pink-600'
-              : 'bg-slate-100 text-slate-700 hover:bg-slate-200')
-          }
-        >
-          {isFav ? '♥ Favourited' : '♡ Favourite'}
-        </button>
+        <div className="mt-auto pt-3">
+          <button
+            type="button"
+            onClick={() => toggle(film)}
+            className={
+              'w-full rounded-md px-3 py-1.5 text-sm font-medium transition ' +
+              (isFav
+                ? 'bg-pink-500 text-white hover:bg-pink-600'
+                : 'bg-slate-100 text-slate-700 hover:bg-slate-200')
+            }
+          >
+            {isFav ? '♥ Favourited' : '♡ Favourite'}
+          </button>
+        </div>
       </div>
     </article>
   )
